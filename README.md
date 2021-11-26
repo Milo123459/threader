@@ -5,7 +5,6 @@ Intensive tasks made simple
 
 Run intense tasks in a background thread. This allows you to then continue with your workflow.
 
-Threader opens a background task running Atomix with no prompt and no fancy features. This happens upon shell startup.
 
 You can then use `threader view` to view the command running, it's output and the commands in [queue](#threader-queue). If you run `threader ls` it will list the instances of Threader running, which is probably going to be 1. If you want to spawn more then 1, type `threader new`.
 
